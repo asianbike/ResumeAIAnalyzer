@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AI 이력서 분석기</title>
+</head>
+<body>
+  <h1>AI 이력서 분석기</h1>
+
+  <form method="POST" enctype="multipart/form-data">
+    <label>이력서 (PDF 파일):</label><br>
+    <input type="file" name="resume" accept=".pdf" required><br><br>
+
+    <label>채용공고 텍스트:</label><br>
+    <textarea name="jd_text" rows="10" cols="60" required></textarea><br><br>
+
+    <input type="submit" value="분석하기">
+  </form>
+</body>
+</html>

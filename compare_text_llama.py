@@ -1,5 +1,4 @@
 import os
-from openai import OpenAI
 from groq import Groq
 import pdfplumber
 from dotenv import load_dotenv
@@ -39,7 +38,7 @@ response = client.chat.completions.create(
     max_completion_tokens=4096,
 )
 result = response.choices[0].message.content
-print("deekseek result : \n")
+print("deekseek result : \n") # deekseek result
 print(result)
 
 response = client.chat.completions.create(
@@ -52,5 +51,5 @@ response = client.chat.completions.create(
     max_completion_tokens=4096,
 )
 result = response.choices[0].message.content
-print("llama result : \n")
+print("llama result : \n") #llama result
 print(result)
