@@ -6,3 +6,5 @@ with pdfplumber.open("readpdf.pdf") as pdf:
         if text:
             full_text += text
 print(full_text[:500])
+
+#pdf parsing practice

@@ -2,7 +2,12 @@ from flask import Flask
 from flask import render_template, request
 import os
 import pdfplumber
+from groq import Groq
 from dotenv import load_dotenv
+
+load_dotenv()
+api.key=os.getenv("GROQ_API_KEY")
+client
 
 app = Flask(__name__)
 app.config["UPLOAD_FOLDER"]= "Flask/uploads" #upload dir
@@ -28,7 +33,7 @@ def index():
         print(jd_text[:300])
         print("✅ 이력서 텍스트:")
         print(resume_text[:300])
-        return "입력 처리 성공"
+        return jd_text
     return render_template("index.html")
 
 if __name__ == "__main__":
