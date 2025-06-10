@@ -12,7 +12,7 @@ client=Groq(api_key=api_key) # load API KEY
 def build_prompt(resume_text, jd_text): #prompt function
     return f"""
 너는 사람을 뽑는 리크루터야. 아래 두 텍스트를 읽고, 이 이력서가 이 직무에 적합한지 평가해줘.
-부족한 점과 점수, 개선점 말해줘. 한국어로 답변해. 또, 100점 만점의 점수도 제공해줘.
+부족한 점과 점수, 개선점 말해줘. 무조건 한국어로 답변해. 또, 100점 만점의 점수도 제공해줘.
 [이력서]
 {resume_text}
 [채용공고]
