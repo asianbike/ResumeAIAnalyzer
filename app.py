@@ -31,7 +31,7 @@ def call_model(model_name, prompt): # reuseable
     )
     return response.choices[0].message.content
 app = Flask(__name__)
-app.config["UPLOAD_FOLDER"]= "Flask/uploads" #upload dir
+app.config["UPLOAD_FOLDER"]= "uploads" #upload dir
 
 @app.route("/", methods=["GET","POST"])
 def index():
@@ -60,7 +60,7 @@ def index():
 
 if __name__ == "__main__":
     import os
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5001)), debug=True)
  
 
     
