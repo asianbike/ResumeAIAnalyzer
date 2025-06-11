@@ -26,7 +26,7 @@ def call_model(model_name, prompt): # reuseable
         {"role": "user", 
          "content": prompt}
     ],
-    temperature=0.2,
+    temperature=0.05,
     max_completion_tokens=2048,
     )
     return response.choices[0].message.content
