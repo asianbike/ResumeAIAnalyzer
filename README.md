@@ -7,7 +7,7 @@ The app provides feedback, a score, and suggestions — all in Korean — helpin
 
 ## 🌐 Live Demo
 
-👉 https://resume-ai-analyzer-0ieu.onrender.com
+👉 https://resumeaianalyzer.onrender.com
 ---
 
 ## 🛠 Tech Stack
