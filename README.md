@@ -36,7 +36,7 @@ The app provides feedback, a score, and suggestions — all in Korean — helpin
 
 | Resume Upload | AI Evaluation Result |
 |---------------|----------------------|
-| ![form](assets/form.png) | ![result](assets/result.png) |
+| ![form](assets/upload.png) | ![result](assets/result.png) |
 
 ---
 ## ⚙️ How to Run Locally
